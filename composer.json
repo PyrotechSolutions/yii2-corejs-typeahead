@@ -1,0 +1,44 @@
+{
+    "name": "ptech/yii2-type-ahead-widget",
+    "description": "The bootstrap typeahead widget for the Yii framework",
+    "keywords": [
+        "Pyrotech Solutions",
+        "yii",
+        "yii2",
+        "yii 2",
+        "widget",
+        "typeahead"
+    ],
+    "type": "yii2-extension",
+    "license": "GNU General Public License v3.0",
+    "homepage": "https://github.com/PyrotechSolutions/yii2-corejs-typeahead",
+    "authors": [
+        {
+            "name": "Pyrotech Solutions",
+            "email": "contactus@pyrotechsolutions.com",
+            "homepage": "http://pyrotechsolutions.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-bootstrap": "~2.0",
+        "yiisoft/yii2": "~2.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ptech\\typeahead\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
